@@ -149,7 +149,7 @@ class GetInfo():
             thread.join()  # 等待所有线程完成
 
             # 所有线程完成后，保存数据到Excel
-        self.save_to_excel('final_video_info1.xlsx')
+        self.save_to_excel('video_info.xlsx')
 
 
 if __name__ == '__main__':
